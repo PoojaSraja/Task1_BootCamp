@@ -1,0 +1,74 @@
+body{
+    font-family: Arial, sans-serif;
+}
+table, td{
+    /* single-line border */
+    border-collapse: collapse;
+    border: 3px solid white;
+    background-color:rgb(12, 3, 94) ;
+    font-size: 1.05em;
+    height: 3em;
+    width: 32em;
+    text-align: center;
+    margin-top: 30px; 
+    font-weight: bold;
+}
+/* centering the table */
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+td:hover {
+    background-color: rgb(121, 117, 179);
+    cursor: pointer;
+}
+
+/* information box */
+.info{
+    height: 30em;
+    width: 20em;
+    margin-left: 30px;
+    background-color:rgb(12, 3, 94) ;
+}
+img{
+    width: 20em;
+}
+.info p{
+    color: antiquewhite;
+    padding-left: 35px;
+}
+
+.intro{
+    height: 7em;
+    width: 50em;
+    border-radius: 5px;
+    position: relative;
+    left: 25em;
+    bottom: 28em;
+}
+.intro h1{
+    font-size: 3em;
+    color: rgb(21, 21, 49);
+}
+.intro h4{
+    position: relative;
+    bottom: 28px;
+    font-size: 1.3em;
+    color: rgb(35, 35, 53);
+}
+.intro p{
+    position: relative;
+    bottom: 30px;
+    color: rgb(28, 30, 32);
+}
+.intro img{
+    position: relative;
+    bottom: 60px;
+    height: 380px;
+    width: 500px;
+}
+
